@@ -297,7 +297,7 @@
                     item = list[i];
                     // Iterate over every key
                     for (j = 0; j < keys.length; j++) {
-                        analyzeText(item[keys[j]], item, i);
+                        analyzeText(item.get(keys[j]), item, i);
                     }
                 }
             }
