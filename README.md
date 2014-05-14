@@ -1,6 +1,8 @@
 Fuse (Forked for Ember Objects)
 ====
 
+[![Build Status](https://secure.travis-ci.org/WMeldon/Fuse.png?branch=master)](http://travis-ci.org/WMeldon/Fuse)
+
 ### Now in Modularized Form
 
 #### Node
