@@ -1,6 +1,6 @@
 var assert = require('assert'),
   vows = require('vows'),
-  Fuse = require('../src/fuse');
+  Fuse = require('../dist/cjs/fuse')["default"];
 
 vows.describe('Flat list of strings: ["Apple", "Orange", "Banana"]').addBatch({
   'Flat:': {

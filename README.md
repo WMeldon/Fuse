@@ -1,7 +1,22 @@
 Fuse (Forked for Ember Objects)
 ====
 
-[![Build Status](https://secure.travis-ci.org/krisk/Fuse.png?branch=master)](http://travis-ci.org/krisk/Fuse)
+### Now in Modularized Form
+
+#### Node
+```javascript
+var Fuse = require('fuse.js')['default'];
+```
+
+#### ES6
+```javascript
+import Fuse from 'fuse.js';
+```
+
+#### Globals
+
+include ```/dist/gobals/fuse.js```
+
 
 Fuse is a full JavaScript fuzzy-search implementation that searches accross the keys of every record in a list.
 
