@@ -1,8 +1,33 @@
 {
   "name": "fuse.js",
   "version": "1.1.1",
-  "main": "./src/fuse.js",
+  "main": [
+    "./dist/globals/fuse.js",
+    "./dist/amd/fuse.js",
+    "./dist/cjs/fuse.js",
+    "./dist/named-amd/fuse.js"
+  ],
   "ignore": [
-    "test/"
-  ]
+    "test/",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/WMeldon/Fuse",
+  "authors": [
+    "William D. Meldon <wdmeldon@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "fuse"
+  ],
+  "license": "Apache",
+  "private": true
 }
